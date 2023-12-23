@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="logo.png" type="image/icon type">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Thala For A Reason</title>
+</head>
+<body>
+    <nav>
+        <p>Thala For A Reason</p>
+    </nav>
+    <div class="search">
+        <input type="text" id="search-input" placeholder="Enter a word or a number"></input>
+        <button onclick="playVideo()"> <img src="search.png" id="search-btn"></button>
+    </div>
+    <div class="credits">
+        <div class="icons">
+            <a href="https://github.com/devarsheecodess">
+                <img src="github.png" alt="Github">
+              </a>
+        </div>
+        <div class="icons">
+            <a href="https://instagram.com/devarsheegaunekar">
+                <img src="instagram.png" alt="Instagram">
+              </a>
+        </div>
+        <div class="icons">
+            <a href="https://www.linkedin.com/in/devarshee-gaunekar-a06441257/">
+                <img src="linkedin.png" alt="LinkedIN">
+              </a>
+        </div>
+    </div>
+        <div class="video">
+            <video id="videoSeven" style="display:none" autoplay playsinline>
+                <source src="thala.mp4" type="video/mp4">
+            </video>
+    
+            <video id="videoNotSeven" style="display:none" autoplay playsinline>
+                <source src="thala_aukaat.mp4" type="video/mp4">
+            </video>
+        </div>
+    <div id="output">
+    
+    </div>
+    <div class="text">
+        <hr>
+        <p>Share On</p>
+        <div class="share">
+            <button onclick="shareOnWhatsApp()"><img src="whatsapp.png" alt="Whatsapp"></button>
+            <button onclick="shareOnFacebook()"><img src="facebook.png" alt="Facebook"></button>
+            <button onclick="shareOnTwitter()"><img src="twitter.png" alt="Twitter"></button>
+            <button onclick="shareOnInstagram()"><img src="instagram.png" alt="Instagram" href="https://instagram.com/" ></button>
+        </div>
+        <p>2023 © devarsheecodess</p>
+    </div>
+</body>
+</html>

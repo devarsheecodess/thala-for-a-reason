@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;1,500&display=swap');
+
+@keyframes glow{
+    0%{
+        filter: drop-shadow(0 0 0px rgb(255, 253, 253));
+    }
+    100%{
+        filter: drop-shadow(0 0 5px rgb(255, 255, 255));
+    }
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins';
+}
+
+body{
+    background: #283048;
+    background: -webkit-linear-gradient(to left, #859398, #283048);
+    background: linear-gradient(to left, #859398, #283048);
+
+}
+
+nav{
+    height: 100px;
+    overflow: hidden;
+    background-color: #222222;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+nav img{
+    width: 2000px;
+}
+
+nav p{
+    font-weight: 800;
+    font-size: 25px;
+    margin-top: 30px;
+    color: #ffea00;
+    filter: drop-shadow(0 0 10px #ffea00);
+}
+
+.search{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 38px;
+}
+
+.credits{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 13px;
+    filter: drop-shadow(0 0 10px rgb(255, 255, 255));
+    animation: glow 2s alternate infinite;
+}
+
+.icons{
+    display: flex;
+}
+
+.icons img{
+    margin: 7px;
+}
+
+.search input{
+    display: flex;
+    justify-content: center;
+    padding: 8px;
+    border-radius: 7px;
+    width: 251px;
+    border: 1px solid rgba(0, 0, 0, 0.495);
+    font-size: 17px;
+    font-weight: 600;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.495);
+}
+.search input:hover{
+    border: 1px solid white;
+}
+
+.search button{
+    margin-left: 15px;
+    border-radius: 50%;
+    border: 1px solid rgba(255, 255, 255, 0.495);
+    height: 53px;
+    width: 53px;
+    background-color: rgba(255, 255, 255, 0.495);
+}
+
+.search button img{
+    height: 27px;
+    margin-top: 5px;
+}
+
+.search button:hover{
+    background-color: #222222;
+    transition-duration: 0.2s;
+    border: 1px solid #222222;
+}
+
+.video{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.video video{
+    height: 380px;
+}
+
+#output{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 13px;
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 20px;
+    filter: drop-shadow(0 0 10px rgb(255, 255, 255));
+}
+
+.share{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.share button{
+    height: 49px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 50%;
+    background: transparent;
+    border: none !important;
+    font-size:0;
+}
+
+.share img{
+    height: 24px;
+    margin-top: 1px;
+    filter: drop-shadow(0 0 10px rgb(255, 255, 255));
+    animation: glow 2s alternate infinite;
+}
+
+.text p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgba(0, 0, 0, 0.597);
+    font-weight: 600;
+    margin: 10px;
+}
+
+.icons img{
+    height: 28px;
+}
